@@ -62,28 +62,6 @@
 
 }
 
-.box{
-    width: 80%;
-    margin: auto;
-    background: red;
-
-}
-.box .about{
-    float: left;
-    width: 100%;
-    font-size: 12px;
-    margin: auto;
-
-}
-.box .album{
-    float: left;
-    width: 100%;
-    font-size: 12px;
-    margin: auto;
-    background: green;
-}
-
-
 .item:hover{
     background: hsla(0,0%,100%,.3);
 

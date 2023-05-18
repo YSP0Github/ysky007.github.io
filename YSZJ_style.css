@@ -1,0 +1,113 @@
+top{
+    width:100%; 
+    height:300px; 
+    background:  rgba(201, 200, 200, 0.5) ;
+}
+.topwords{
+    float: left;
+    width: 40%;
+    height: 60%;
+    margin-top: 100px;
+    margin-left: 10%;
+}
+.topwords .item{
+    font-size: 30px;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+}
+
+.toppic{
+    float: right;
+    width: 40%;
+    height: 100%;
+    margin-top: 0;
+    padding-right:0%;
+}
+.wavepic{
+    float: right;
+    width: auto;
+    height: 130%;
+    margin-right: 10%;
+}
+
+.top>.menue{
+    width:100%;
+    height:80px;
+    background:#000;
+    /* box-shadow:0 1px 2px  #333; */
+    position:fixed;
+    top: 0;
+    left: 0;
+}
+.top>.menue>.box1{
+    width:80%; 
+    height:100%; 
+    margin: auto;
+}
+
+.ul_menue{
+    height:100%; 
+    list-style: none;
+    float: right;
+}
+.ul_menue .item{
+    float:left;
+    height:100%;
+    line-height: 50px;
+    padding: 0 10px;
+    margin: 0;
+    color:white;
+    font-size: 20px;
+    cursor:pointer;
+}
+.ul_menue a{ text-decoration: none; color: #fff; }
+.ul_menue a:hover{color: darkgrey;}
+.yskylogo{
+    float: left;
+    width: 200px;
+    height:100%;
+}
+ 
+.yskylogo a:hover{color: aqua; }
+
+.yskylogo .logo{
+    float: left;
+    width: 80%;
+    height: auto;
+    padding-top: 20px;
+    font-size: 30px;
+    text-align:left;
+    color: #fff;
+    cursor:pointer;
+}
+
+.homegif{
+    width:50%;
+    float: right;
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body{margin: 0; background:#000;}
+/* :doodle {
+    @grid: 8 / 90%;
+    @shape: circle;
+  }
+  
+  transition: .2s @r(.6s);
+  border-radius: @pick(100% 0, 0 100%);
+  transform: scale(@r(.25, 1.25));
+  
+  background: hsla(
+    calc(240 - 6 * @x * @y),
+    70%, 68%, @r.8
+  ); */
