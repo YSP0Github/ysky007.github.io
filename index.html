@@ -3,26 +3,25 @@
         <meta charset='utf-8'>
         <title>云凇之家</title>
         <link href="YSZJ_style.css" rel="stylesheet">
-        <link rel="icon" href="images/YSZJ_logo_orange .ico">
+        <link rel="icon" href="images/YSZJ_logo_orange.ico">
     </head>
 
     <body>
+        
         <img src="images/home3.gif" alt="home" class="homegif" >
         <!-- <img src="images/home3.gif" alt="home" class="homegif" > -->
+
         <div class="top">
-                <div class="topwords">
-                    <p class="item">欢迎访问云凇之家</p>
-                </div>
-                               
+
                 <div class="menue">
-                    <div class="box1">
+                    <div class="box">
                         <div class="yskylogo"> 
                             <img src="images/YSZJ_orange.png" alt="logo" class="logo">
                         </div>
                         <ul class="ul_menue">
                             
                             <li class="item">
-                                <a href="#home">首页 </a>
+                                <a href="index.html">首页 </a>
                             </li>
                             <li class="item">
                                 <a href="YSKY.html" target="_blank">云凇科研</a>
@@ -31,19 +30,96 @@
                                 <a href="https://gmt-china.org/#" target="_blank">GMT中文社区 </a> 
                             </li>
                             <li class="item">
-                                <a href="#album">导航栏 </a> 
+                                <a href="personal.html" target="_blank">个人空间</a> 
                             </li>
                             <li class="item">
-                                <a href="#album">导航栏 </a> 
+                                <a href="#nav">导航栏 </a> 
                             </li>
                             <li class="item">
-                                <a href="#album">导航栏 </a> 
+                                <a href="#nav">导航栏 </a> 
                             </li>
                         </ul>
-                        
 
                     </div>
                 </div>
+        </div>
+        <div class="searchbox" >
+        <div class="searchBar">
+            <div class="icon"></div>
+            <div class="textinput">
+                <input type="text" placeholder="请输入关键词搜索...">
+                <input type="submit" value="go" id="go">
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+
+        <script>
+
+            let oSearchBar=document.querySelector('.searchBar');
+            let oIcon=document.querySelector('.icon');
+            let oClear=document.querySelector('.clear');
+            let oText=document.querySelector('input[type="text"]');
+
+            oIcon.addEventListener('click',() => {
+                oSearchBar.classList.toggle('changeWidth')
+            });
+
+            oClear.addEventListener('click',() => {
+                oText.value = '';
+            });
+
+
+        </script>
+
+
+        <div class="topwords">
+            <p class="item">欢迎访问云凇之家</p>
+            <!-- <p class="item">·</p>
+            <p class="item">·</p> -->
+        </div>
+
+        <div class="box1">
+            <p class="item">
+                请留言：
+            </p>
+        </div>
+        <!-- <div class="box2" top="305px">
+            <p class="item">
+                我是内容！
+            </p>
+        </div> -->
+        <!-- <div class="box3">
+            <p class="item">
+                我是内容！
+            </p>
+        </div>
+        <div class="box4">
+            <p class="item">
+                我是内容！
+            </p>
+        </div>
+        <div class="box5">
+            <p class="item">
+                我是内容！
+            </p>
+        </div>
+        <div class="box6">
+            <p class="item">
+                我是内容！
+            </p>
+        </div> -->
+
+        <div class="footer">
+            <ul>
+                <li><a href="#">帮助中心</a></li>丨
+                <li><a href="#">关于我们</a></li>丨
+                <li><a href="#">在线留言</a></li>丨
+                <li><a href="#">科技创新</a></li>丨
+                <li><a href="#">开放发展</a></li>
+            </ul>
+            <br />
+            <span>©2016-2023&nbsp;云凇之家 &nbsp;&nbsp;邮箱:yszj@163.com</span>
         </div>
        
 

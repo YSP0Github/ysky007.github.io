@@ -1,13 +1,131 @@
-top{
-    width:100%; 
-    height:300px; 
-    background:  rgba(201, 200, 200, 0.5) ;
+.searchbox{
+    width: 350px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left:  25%;
 }
+.searchBar{
+    width:40px;
+    height: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+    border-radius: 40px;
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+    /* margin-left: 45%; */
+    margin-top: 10px;
+    margin-bottom: -50px;
+    position:absolute;
+    top:10px;
+    /* position: relative; */
+    overflow: hidden;
+    transition: .5s;
+}
+.changeWidth{
+    width:350px;
+}
+
+.icon{
+    width:40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.icon::before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 3px solid #777777;
+    position: absolute;
+    transform: translate(-4px,-4px);
+}
+
+.icon::after{
+    content: '';
+    width: 3px;
+    height: 12px;
+    background-color: #777777;
+    transform: translate(6px,6px) rotate(315deg);
+}
+.textinput{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    position: absolute;
+    top:0;
+    left:40px;
+}
+.textinput input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.clear{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 22%;
+    top:50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clear::before{
+    float: left;
+    content: '';
+    width: 1px;
+    height: 15px;
+    background-color: #777777;
+    transform: rotate(45deg);
+    position: absolute;
+}
+.clear::after{
+    float: left;
+    content: '';
+    width: 1px;
+    height: 15px;
+    background-color: #777777;
+    transform: rotate(315deg);
+}
+
+
+#go{
+    width: 12%;
+    height: 60%;
+    position:absolute ;
+    top: 20%;
+    right: 0;
+    border-radius: 8px;
+    color: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .4);
+    background: linear-gradient(#777777,#333);
+}
+#go:hover{
+    cursor: pointer;
+    background: aqua;
+}
+
 .topwords{
     float: left;
     width: 40%;
     height: 60%;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 10%;
 }
 .topwords .item{
@@ -35,12 +153,12 @@ top{
     width:100%;
     height:80px;
     background:#000;
-    /* box-shadow:0 1px 2px  #333; */
+    box-shadow:0 1px 2px  #333;
     position:fixed;
     top: 0;
     left: 0;
 }
-.top>.menue>.box1{
+.top>.menue>.box{
     width:80%; 
     height:100%; 
     margin: auto;
@@ -83,31 +201,103 @@ top{
 }
 
 .homegif{
-    width:50%;
     float: right;
+    width:500px;
+    height: auto;
+    padding-top:10%;
+    position: absolute;
+    right: 10%;
 }
 
-.container {
-	width: 100vw;
-	height: 100vh;
-	overflow: hidden;
-	background-color: black;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.box1,.box2,.box3,.box4,.box5,.box6{
+    float: left;
+    width: 500px;
+    height: 60%;
+    position: absolute;
+    top:200px;
+    left:10%;
+    border-radius:10px;
+    background: #CCCCCC;
+}
+/*
+.box2{
+    float: left;
+    width: 500px;
+    height: 10%;
+    position: absolute;
+    top: 305px;
+    left:10%;
+    border-radius:10px;
+    background: #CCCCCC;
+}
+.box3{
+    float: left;
+    width: 500px;
+    height: 10%;
+    position: absolute;
+    top: 410px;
+    left:10%;
+    border-radius: 10px;
+    background: #CCCCCC;
+}
+.box4{
+    float: left;
+    width: 500px;
+    height: 10%;
+    position: absolute;
+    top: 515px;
+    left:10%;
+    border-radius: 10px;
+    background: #CCCCCC;
+}
+.box5{
+    float: left;
+    width: 500px;
+    height: 10%;
+    position: absolute;
+    top: 620px;
+    left:10%;
+    border-radius: 10px;
+    background: #CCCCCC;
+}
+.box6{
+    float: left;
+    width: 500px;
+    height: 30%;
+    position: absolute;
+    top: 725px;
+    left:10%;
+    border-radius: 10px;
+    background: #CCCCCC;
+}
+*/
+
+.box .item{
+    color:#000;
 }
 
-body{margin: 0; background:#000;}
-/* :doodle {
-    @grid: 8 / 90%;
-    @shape: circle;
-  }
-  
-  transition: .2s @r(.6s);
-  border-radius: @pick(100% 0, 0 100%);
-  transform: scale(@r(.25, 1.25));
-  
-  background: hsla(
-    calc(240 - 6 * @x * @y),
-    70%, 68%, @r.8
-  ); */
+.footer{
+    width:100%;
+    height:100px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    position: absolute;
+    bottom: 0;
+}
+.footer ul li{
+   display:inline;
+}
+
+.footer ul li a{
+    text-decoration: none; 
+    color: #fff; 
+}
+.footer ul li a:hover{
+    text-decoration: underline; 
+    color: #cccccc; 
+}
+
+body{
+    margin: 0; 
+    background:#000;}
