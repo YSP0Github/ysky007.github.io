@@ -1,0 +1,35 @@
+[1]高立峰, 王海云, 陈飞,等. 数字地震震相集[J]. 地震地磁观测与研究, 2007, 28(6):3.
+[2]D.A.Storchak, J.Schweitzer, P.Bormann,等. IASPEI标准地震震相表[J]. 世界地震译丛, 2004(6):13.
+[3]刘家愚, 张义梅. 浅源极远震的震相特征与识别方法[J]. 华南地震, 1998, 18(4):5.
+[4]高存英, 王焱. 谈远震特别区域震相记录特征与震相识别——以大同国家测震台观测资料为例[J]. 山西地震, 2010(3):5.
+[5]朱战斌. 从近震到远震震相序列全解析[M]. 地震出版社, 2012.
+[6]刘瑞丰, 陈翔, 沈道康. 宽频带数字地震记录震相分析[M]. 地震出版社, 2014.
+[7] Niu F . Constraints on seismic anisotropy of the innermost inner core from observations of antipode PKIIKP phases[J].  2006.
+[8]王文爽. 利用PKIIKP/PKIKP振幅比约束内核顶部S波速度结构[D]. 武汉大学.
+[9]Jaromír, Janský, Jan, et al. Observed and calculated short-periodPKIKP/PKP1 amplitude ratio[J]. Studia Geophysica Et Geodaetica, 1989.
+[10] Jansky J ,  Kvasnika M . Theoretical PKIKP magnitude determination[J]. Studia Geophysica Et Geodaetica, 1992, 36(1):20-25.
+[11]Creager,  K. C . Anistropy of the inner core from differential travel times of the phases PKP and PKIKP.[J]. Nature, 1992.
+[12] Li X . Attenuation in the inner core from the broadband PKIKP data.[D]. The University of Connecticut.  2001.
+[13] He X . ARRIVAL TIME MEASUREMENTS OF FIRST PHASES P AND PKIKP USING THE METHOD OF FIXED SCALE WAVELET TRANSFORMATION RATIO[J]. Acta Seismologica Sinica, 2005.
+[14] Zheng Y ,  Fehler M C . Scales and scattering strengths of lower mantle heterogeneities using PKP-ab, PKP-bc and PKIKP waves (Invited). AGU Fall Meeting Abstracts, 2010.
+[15]M Ramíreznicolás,  Madrid U . Modelling of P-waves velocity function from the PKiKP and PKIKP phases.  2011.
+[16] Ma X . Low Velocity Zones Near the Core Mantle Boundary From PKIKP Precursors.  2015.
+[17] He X B ,  Zhou H L . Arrival time measurements of first arrival phases P and PKIKP using the method of fixed scale wavelet transformation ratio[J]. Acta Seismologica Sinica, 2005, 18(4):410-418.
+[18] Ivan M ,  Xiaobo H E . Uppermost Inner Core Heterogeneity from Differential Travel Times of PKIKP vs. PKP-Bdiff and PKP-Cdiff Phases[J]. Pure and Applied Geophysics, 2016, 174(1):1-11.
+[19] Ivan M ,  He X . Uppermost Inner Core Heterogeneity from Differential Travel Times of PKIKP vs. PKP-Bdiff and PKP-Cdiff Phases[J]. Pure and Applied Geophysics, 2017.
+[20]Tkalcic, Hrvoje. The Earth\"s Inner Core (Revealed by Observational Seismology) || The Angle Between PKIKP Waves and the Rotation Axis of the Earth[J].  2017, 10.1017/9781139583954(Appendix B):192-193.
+[21] Bolt B A ,  O'Neill M E . Times and Amplitudes of the Phases PKiKP and PKIIKP[J]. Geophysical Journal of the Royal Astronomical Society, 1965, 9(2‐3).
+[22] Cleary J ,  Hales A L . PKIKP residuals at stations in North America and Europe[J]. Earth and Planetary Science Letters, 1970, 8(4):279-282.
+[23] Gutenberg B . PKIKP and Pseudo-PKIKP Phases at distances of less than 140°[J]. Geophysical Journal of the Royal Astronomical Society, 1960, 3(2):250-257.
+[24] Cormier V F . Anisotropy of heterogeneity scale lengths in the lower mantle from PKIKP precursors[J]. Geophysical Journal International, 2002.
+[25]D, W,  King R , et al. Array Analysis of Precursors to PKIKP in the Distance Range 128° to 142°[J]. Geophysical Journal International, 1974, 37.
+[26] Poupinet G ,  Pillet R ,  Souriau A . Possible heterogeneity of the Earth's core deduced from PKIKP travel times[J]. Nature, 1983, 305(5931):204-206.
+[27]沈旭章, 周蕙兰. 用PKIKP的前驱震相探测青藏高原东部地幔底部的散射体[J]. 科学通报, 2009(24):8.
+[28]何小波, 周蕙兰. 利用定尺度小波变换比方法测量远震极远震P和PKIKP震相到时[J]. 地震学报, 2005, 27(4):9.
+[29]Vernon, F, Cormier. Time-domain modelling of PKIKP precursors for constraints on the heterogeneity in the lowermost mantle[J]. Geophysical Journal International, 1995.
+[30] Creager K C . Anisotropy of the inner core from differential travel times of the phases PKP and PKIKP[J]. Nature, 1992, 356(6367):309-314.
+[1]陈琳荣. 地震中的震相分析[J].  2021(2011-18):89-89.
+[1]YE Zhuo. 下扬子及其邻区地壳和上地幔结构的接收函数研究及其地质意义[J]. Acta Geologica Sinica, 2020, 94(3):707-715.
+[45]	邹瑜, 何小波. 410-km和660-km间断面的特征:来自于P'P'前驱波的证据[C]// 中国地球物理学会 中国地质学会 中国地震学会 中国力学学会 中国岩石力学与工程学会. 中国地球物理学会 中国地质学会 中国地震学会 中国力学学会 中国岩石力学与工程学会, 2017.
+[46]	胡锦锋. 地幔660-km间断面和D”间断面的精细结构研究[D].浙江大学,2019.
+[1]Ohtaki, Toshiki, Kaneshima, et al. Independent estimate of velocity structure of Earth's lowermost outer core beneath the northeast Pacific from PKiKP - PKPbc differential traveltime and dispersion in PKPbc[J]. Journal of Geophysical Research Solid Earth Jgr, 2015.
