@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>个人空间</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="YSZJ_style.css" type="text/css" rel="stylesheet">
     <link rel="icon" href="images/YSZJ_logo_orange.ico">
 </head>
 <body>
+    <div class="bodybg">
     <div class="top">
             <div class="menue">
                 <div class="box">
@@ -35,14 +38,40 @@
                             <a href="#album">导航栏 </a> 
                         </li>
                     </ul>
-                    
+                    <div class="searchbox" >
+                        <div class="searchBar">
+                            <div class="icon"></div>
+                            <div class="textinput">
+                                <input type="text" placeholder="请输入关键词搜索...">
+                                <input type="submit" value="go" id="go">
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
     </div>
-    <div class="box2">
+    <script>
+        let oSearchBar=document.querySelector('.searchBar');
+        let oIcon=document.querySelector('.icon');
+        let oClear=document.querySelector('.clear');
+        let oText=document.querySelector('input[type="text"]');
 
+        oIcon.addEventListener('click',() => {
+            oSearchBar.classList.toggle('changeWidth')
+        });
+
+        oClear.addEventListener('click',() => {
+            oText.value = '';
+        });
+    </script>
+
+    <div class="box2">
+              
     </div>
+
+
 
     <div class="footer">
         <!-- <ul class="footer_ul"> -->
@@ -55,6 +84,6 @@
         <br>
         <span >©2016-2023&nbsp;云凇之家 &nbsp;&nbsp;邮箱:yszj@163.com</span>
     </div>
-   
+</div>
 </body>
 </html>

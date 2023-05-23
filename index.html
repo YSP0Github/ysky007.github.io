@@ -2,13 +2,14 @@
     <head>
         <meta charset='utf-8'>
         <title>云凇之家</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="YSZJ_style.css" type="text/css" rel="stylesheet">
         <link rel="icon" href="images/YSZJ_logo_orange.ico">
     </head>
 
     <body>
-        <img src="images/home3.gif" alt="home" class="homegif" >
-        
+        <img src="images/moon.jpg" alt="moon" class="moon">
         <!-- <img src="images/home3.gif" alt="home" class="homegif" > -->
         <!-- <img src="images/home3.gif" alt="home" class="homegif" > -->
 
@@ -37,22 +38,24 @@
                                 <a href="#nav">导航栏 </a> 
                             </li>
                             <li class="item">
-                                <a href="#nav">导航栏 </a> 
+                                <a href="#nav">导航栏</a>&nbsp;丨  
+                            </li>
+                            <li class="log">
+                                <a href="log.html">登录</a>
                             </li>
                         </ul>
-
+                        <div class="searchbox" >
+                            <div class="searchBar">
+                                <div class="icon"></div>
+                                <div class="textinput">
+                                    <input type="text" placeholder="请输入关键词搜索...">
+                                    <input type="submit" value="go" id="go">
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div> 
-        </div>
-        <div class="searchbox" >
-            <div class="searchBar">
-                <div class="icon"></div>
-                <div class="textinput">
-                    <input type="text" placeholder="请输入关键词搜索...">
-                    <input type="submit" value="go" id="go">
-                    <div class="clear"></div>
-                </div>
-            </div>
         </div>
         <script>
             let oSearchBar=document.querySelector('.searchBar');
@@ -69,19 +72,52 @@
             });
         </script>
 
-
         <div class="topwords">
+            <img src="images/home3.gif" alt="home" class="homegif" >
             <p class="item">欢迎访问云凇之家</p>
-            <!-- <p class="item">·</p>
-            <p class="item">·</p> -->
         </div>
 
         <div class="box1">
-            <img src="images/moon.jpg" alt="moon" class="moon">
-        </div>
-        <!-- <div class="box2">
+            <div class="wrap">
+                <div class="tile">
+                    <div class="text">
+                        <h1>名人名言</h1>
+                        <img src="images/starrysky.jpg" alt="">
+                        <h2 class="animate_text">毛泽东曾说过这样一句话：</h2>
+                        <p class="animate_text">人民、只有人民，才是创造世界历史的动力。</p>
+                        <div class="dots"><span></span> <span></span> <span></span> </div>
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="text">
+                        <h1>名人名言</h1>
+                        <img src="images/starrysky2.jpg" alt="">
+                        <h2 class="animate_text">毛泽东曾说过这样一句话：</h2>
+                        <p class="animate_text">世界是你们的，也是我们的，但是归根结底是你们的。你们青年人朝气蓬勃，正在兴旺时期，好像早晨八九点钟的太阳。希望寄托在你们身上。</p>
+                        <div class="dots"><span></span> <span></span> <span></span> </div>
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="text">
+                        <h1>名人名言</h1>
+                        <img src="images/starrysky3.jpg" alt="">
+                        <h2 class="animate_text">毛泽东曾说过这样一句话：</h2>
+                        <p class="animate_text">我们不但善于破坏一个旧世界，我们还将善于建设一个新世界。</p>
+                        <div class="dots"><span></span> <span></span> <span></span> </div>
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="text">
+                        <h1>名人名言.</h1>
+                        <img src="images/starrysky4.jpg" alt="">
+                        <h2 class="animate_text">毛泽东曾说过这样一句话：</h2>
+                        <p class="animate_text">情况是在不断的变化，要使自己的思想适应新的情况，就得学习。</p>
+                        <div class="dots"><span></span> <span></span> <span></span> </div>
+                    </div>
+                </div>
+            </div>
+        </div>         
 
-        </div> -->
         <div class="footer">
             <!-- <ul class="footer_ul"> -->
                 <li><a href="#">帮助中心</a></li>丨
@@ -91,7 +127,9 @@
                 <li><a href="#">开放发展</a></li>
             <!-- </ul> -->
             <br>
-            <span >©2016-2023&nbsp;云凇之家 &nbsp;&nbsp;邮箱:yspyswh@163.com</span>
+            <span>QQ群:123456789&nbsp;&nbsp;邮箱:yspyswh@163.com</span>
+            <br>
+            <span >©2016-2023&nbsp;云凇之家 </span>
         </div>
        
 
