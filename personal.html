@@ -7,9 +7,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="YSZJ_style.css" type="text/css" rel="stylesheet">
     <link rel="icon" href="images/YSZJ_logo_orange.ico">
+    <style>
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        viedo{
+            height:auto;
+            width: 100%;
+            object-fit: cover;;
+            position: fixed;
+            left:0;
+            top:0;
+        }
+
+        .bgviedo{
+            position: fixed;
+            z-index: -1
+        }
+        @media (min-aspect-ratio: 16/9){
+            .bgviedo{
+                width: auto;
+                height: 100%;
+            }
+        }
+        @media (max-aspect-ratio: 16/9){
+            .bgviedo{
+                width: 100%;
+                height: auto;
+            }
+        }
+        @media (max-widthL: 767px){
+            .bgviedo{
+                display:none;
+            }
+            body{
+                background: url(images/starrysky1.jpg);
+                background-size: cover;
+            }
+        }
+
+    </style>
 </head>
 <body>
-    <div class="bodybg">
+    <!-- <div class="bodybg"> -->
+    <video autoplay muted loop src="viedos/earth_rotation.mp4" class="bgviedo"> </video>
     <div class="top">
             <div class="menue">
                 <div class="box">
